@@ -1,0 +1,16 @@
+a{
+  color: $header-title-color;
+}
+a:hover{
+  text-decoration: none;
+  color: $header-title-color;
+}
+
+.componentList {
+  h4 {
+    color: $cts-color;
+  }
+  .submitBtn {
+    margin-top: 20px; 
+  }
+}

@@ -1,0 +1,20 @@
+@import './_base.scss';
+@import './_mixins.scss';
+@import './_theme.scss';
+@import './Home.scss';
+@import './Header.scss';
+@import './ComponentsList.scss';
+@import './contacts.scss';
+@import './Login.scss';
+
+.homePage, .componentList, .peopleList{
+    padding: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    // box-shadow: 3px 3px 5px 6px #bfbfbf91;
+    box-shadow: 0 8px 6px -6px black;
+} 
+

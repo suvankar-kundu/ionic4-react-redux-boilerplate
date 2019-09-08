@@ -1,0 +1,29 @@
+//SASS styles for Home components
+#home_wrapper{
+  h5{
+    color: $cts-color;
+    span{
+      padding: 1%;
+    }
+  }
+  ul.list-group {
+    min-width: 400px;
+    a {
+      li {
+        border-radius: 0;
+        &:hover {
+          background: $cts-color;
+          color: #fff;
+        }
+      }
+    }
+    
+  }
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-bottom: 30px;
+}
